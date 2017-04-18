@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+
+        <TextView android:id="@+id/messages_sender"
+            android:layout_width="70dip"
+            android:padding="3dip" />
+
+        <TextView android:id="@+id/messages_message"
+            android:layout_width="250dip"
+            android:padding="3dip" />
+
+    </TableRow>
+
+</TableLayout>
